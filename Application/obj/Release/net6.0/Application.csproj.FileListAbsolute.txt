@@ -15,3 +15,5 @@ E:\ProjectRepository\study\DDDNB\Application\obj\Release\net6.0\Application.dll
 E:\ProjectRepository\study\DDDNB\Application\obj\Release\net6.0\refint\Application.dll
 E:\ProjectRepository\study\DDDNB\Application\obj\Release\net6.0\Application.pdb
 E:\ProjectRepository\study\DDDNB\Application\obj\Release\net6.0\ref\Application.dll
+E:\ProjectRepository\study\DDDNB\Application\bin\Release\net6.0\Application.runtimeconfig.json
+E:\ProjectRepository\study\DDDNB\Application\obj\Release\net6.0\Application.genruntimeconfig.cache

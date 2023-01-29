@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UyaR5kZJlZ2tBPQR3MGFAzfTYCVHWasqKnMvhwcfbSs=",
+  "Hash": "LjAiP23hUEEuMvV/CNx/V/l7FEdFXOYKicT0YQKMTWY=",
   "Source": "UI.Web",
   "BasePath": "_content/UI.Web",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "E:\\ProjectRepository\\study\\DDDNB\\DDDNB\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\UI.Web.bundle.scp.css"
     },
     {
+      "Identity": "E:\\ProjectRepository\\study\\DDDNB\\DDDNB\\wwwroot\\css\\bootstrap.min.css",
+      "SourceId": "UI.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ProjectRepository\\study\\DDDNB\\DDDNB\\wwwroot\\",
+      "BasePath": "_content/UI.Web",
+      "RelativePath": "css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
+    },
+    {
       "Identity": "E:\\ProjectRepository\\study\\DDDNB\\DDDNB\\wwwroot\\css\\site.css",
       "SourceId": "UI.Web",
       "SourceType": "Discovered",
@@ -66,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "E:\\ProjectRepository\\study\\DDDNB\\DDDNB\\wwwroot\\css\\site.min.css",
+      "SourceId": "UI.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ProjectRepository\\study\\DDDNB\\DDDNB\\wwwroot\\",
+      "BasePath": "_content/UI.Web",
+      "RelativePath": "css/site.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.min.css"
     },
     {
       "Identity": "E:\\ProjectRepository\\study\\DDDNB\\DDDNB\\wwwroot\\favicon.ico",

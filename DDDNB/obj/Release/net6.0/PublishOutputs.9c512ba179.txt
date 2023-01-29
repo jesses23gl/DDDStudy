@@ -1,10 +1,9 @@
-E:\ProjectRepository\study\DDDNB\DDDNB\obj\Docker\publish\DDDNB.exe
+E:\ProjectRepository\study\DDDNB\DDDNB\obj\Docker\publish\UI.Web.exe
 E:\ProjectRepository\study\DDDNB\DDDNB\obj\Docker\publish\appsettings.Development.json
 E:\ProjectRepository\study\DDDNB\DDDNB\obj\Docker\publish\appsettings.json
-E:\ProjectRepository\study\DDDNB\DDDNB\obj\Docker\publish\DDDNB.dll
-E:\ProjectRepository\study\DDDNB\DDDNB\obj\Docker\publish\DDDNB.deps.json
-E:\ProjectRepository\study\DDDNB\DDDNB\obj\Docker\publish\DDDNB.runtimeconfig.json
-E:\ProjectRepository\study\DDDNB\DDDNB\obj\Docker\publish\DDDNB.pdb
+E:\ProjectRepository\study\DDDNB\DDDNB\obj\Docker\publish\UI.Web.dll
+E:\ProjectRepository\study\DDDNB\DDDNB\obj\Docker\publish\UI.Web.runtimeconfig.json
+E:\ProjectRepository\study\DDDNB\DDDNB\obj\Docker\publish\UI.Web.pdb
 E:\ProjectRepository\study\DDDNB\DDDNB\obj\Docker\publish\AutoMapper.dll
 E:\ProjectRepository\study\DDDNB\DDDNB\obj\Docker\publish\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 E:\ProjectRepository\study\DDDNB\DDDNB\obj\Docker\publish\Microsoft.Data.SqlClient.dll
@@ -53,3 +52,4 @@ E:\ProjectRepository\study\DDDNB\DDDNB\obj\Docker\publish\Application.pdb
 E:\ProjectRepository\study\DDDNB\DDDNB\obj\Docker\publish\Infrastruct.Data.pdb
 E:\ProjectRepository\study\DDDNB\DDDNB\obj\Docker\publish\Domain.pdb
 E:\ProjectRepository\study\DDDNB\DDDNB\obj\Docker\publish\Domain.core.pdb
+E:\ProjectRepository\study\DDDNB\DDDNB\obj\Docker\publish\UI.Web.deps.json

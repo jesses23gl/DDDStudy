@@ -10,3 +10,5 @@ E:\ProjectRepository\study\DDDNB\Domain.core\obj\Release\net6.0\Domain.core.dll
 E:\ProjectRepository\study\DDDNB\Domain.core\obj\Release\net6.0\refint\Domain.core.dll
 E:\ProjectRepository\study\DDDNB\Domain.core\obj\Release\net6.0\Domain.core.pdb
 E:\ProjectRepository\study\DDDNB\Domain.core\obj\Release\net6.0\ref\Domain.core.dll
+E:\ProjectRepository\study\DDDNB\Domain.core\bin\Release\net6.0\Domain.core.runtimeconfig.json
+E:\ProjectRepository\study\DDDNB\Domain.core\obj\Release\net6.0\Domain.core.genruntimeconfig.cache
