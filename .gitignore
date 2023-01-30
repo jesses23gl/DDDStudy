@@ -345,3 +345,15 @@ ASALocalRun/
  
 # BeatPulse healthcheck temp database 
 healthchecksdb
+
+DDDNB/Application/bin/
+DDDNB/DDDNB/bin/
+DDDNB/Domain/bin/
+DDDNB/Domain.core/bin/
+DDDNB/Infrastruct.Data/bin/
+
+DDDNB/Application/obj/
+DDDNB/DDDNB/obj/
+DDDNB/Domain/obj/
+DDDNB/Domain.core/obj/
+DDDNB/Infrastruct.Data/obj/
