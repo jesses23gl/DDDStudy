@@ -1,6 +1,7 @@
 ﻿using Application.Interfaces;
 using AutoMapper;
 using AutoMapper.QueryableExtensions;
+using Domain;
 using Domain.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -37,6 +38,10 @@ namespace Application.Services
 
         public void Register(StudentViewModel StudentViewModel)
         {
+
+            var newModel = _mapper.Map<Student>(StudentViewModel);
+
+            _StudentRepository.Add(newModel);
             //var registerCommand = _mapper.Map<RegisterNewStudentCommand>(StudentViewModel);
         }
 

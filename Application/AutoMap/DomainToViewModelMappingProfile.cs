@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Application.AutoMap
 {
-    public class DomainToViewModelMappingProfile: Profile
+    public class DomainToViewModelMappingProfile : Profile
     {
         /// <summary>
         /// 配置构造函数，用来创建关系映射
@@ -16,7 +16,11 @@ namespace Application.AutoMap
         public DomainToViewModelMappingProfile()
         {
 
-            CreateMap<Student, StudentViewModel>();
+            CreateMap<Student, StudentViewModel>()
+               .ForMember(d => d.County, o => o.MapFrom(s => s.Address.County))
+               .ForMember(d => d.Province, o => o.MapFrom(s => s.Address.Province))
+               .ForMember(d => d.City, o => o.MapFrom(s => s.Address.City))
+               .ForMember(d => d.Street, o => o.MapFrom(s => s.Address.Street));
         }
     }
 }

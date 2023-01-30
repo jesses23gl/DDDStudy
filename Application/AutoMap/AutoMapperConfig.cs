@@ -10,13 +10,14 @@ namespace Application.AutoMap
 {
     public class AutoMapperConfig
     {
-        public static MapperConfigurationExpression RegisterMappings() 
+        public static MapperConfiguration RegisterMappings()
         {
-            var cfg = new MapperConfigurationExpression();
-            cfg.AddProfile(new DomainToViewModelMappingProfile());
-            cfg.AddProfile(new ViewModelToDomainMappingProfile());
+            return new MapperConfiguration(cfg =>
+            {
+                cfg.AddProfile(new DomainToViewModelMappingProfile());
+                cfg.AddProfile(new ViewModelToDomainMappingProfile());
 
-            return cfg;
+            });
         }
     }
 }

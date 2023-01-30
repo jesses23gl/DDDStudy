@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "/A/YL+9eOHUcsG7uMpGXBzVJl0nX7rySo+kjjUgwn2te4Ws5MzhZR4AVuoXE8m9+MiaCBzN1seNSH040vh2NrA==",
+  "dgSpecHash": "NaQU8iBcucwOyfCTbGoN8foU4b+d/CU4OgqkVOQdnBGlFrJuobKCCbGx9sal6+i7JlNgfIm7cy5ho98h1702eQ==",
   "success": true,
   "projectFilePath": "E:\\ProjectRepository\\study\\DDDNB\\DDDNB\\UI.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

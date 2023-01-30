@@ -9,6 +9,7 @@
       "UI.Web/1.0.0": {
         "dependencies": {
           "Application": "1.0.0",
+          "FluentValidation": "11.4.0",
           "Infrastruct.Data": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "6.0.13",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.17.0"
@@ -39,6 +40,14 @@
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.1.0.0"
+          }
+        }
+      },
+      "FluentValidation/11.4.0": {
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.4.0.0"
           }
         }
       },
@@ -1146,7 +1155,8 @@
       "Application/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.0",
-          "Domain": "1.0.0"
+          "Domain": "1.0.0",
+          "FluentValidation": "11.4.0"
         },
         "runtime": {
           "Application.dll": {}
@@ -1154,13 +1164,17 @@
       },
       "Domain/1.0.0": {
         "dependencies": {
-          "Domain.core": "1.0.0"
+          "Domain.core": "1.0.0",
+          "FluentValidation": "11.4.0"
         },
         "runtime": {
           "Domain.dll": {}
         }
       },
       "Domain.core/1.0.0": {
+        "dependencies": {
+          "FluentValidation": "11.4.0"
+        },
         "runtime": {
           "Domain.core.dll": {}
         }
@@ -1168,6 +1182,7 @@
       "Infrastruct.Data/1.0.0": {
         "dependencies": {
           "Domain": "1.0.0",
+          "FluentValidation": "11.4.0",
           "Microsoft.EntityFrameworkCore": "6.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer.Design": "1.1.6",
@@ -1198,6 +1213,13 @@
       "sha512": "sha512-dQyGCAYcHbGuimVvCMu4Ea2S1oYOlgO9XfVdClmY5wgygJMZoS57emPzH0qNfknmtzMm4QbDO9i237W5IDjU1A==",
       "path": "automapper.extensions.microsoft.dependencyinjection/8.1.0",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512"
+    },
+    "FluentValidation/11.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WZJyrNf4suiaI6avVG32W9kmBLC3+V5rDTcLeRJjeU4tDmTyDIOz1459DzCKppXs34YpZg9rCUzDY3M4XxG7Ug==",
+      "path": "fluentvalidation/11.4.0",
+      "hashPath": "fluentvalidation.11.4.0.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",

@@ -75,3 +75,4 @@ E:\ProjectRepository\study\DDDNB\DDDNB\obj\Debug\net6.0\refint\UI.Web.dll
 E:\ProjectRepository\study\DDDNB\DDDNB\obj\Debug\net6.0\UI.Web.pdb
 E:\ProjectRepository\study\DDDNB\DDDNB\obj\Debug\net6.0\UI.Web.genruntimeconfig.cache
 E:\ProjectRepository\study\DDDNB\DDDNB\obj\Debug\net6.0\ref\UI.Web.dll
+E:\ProjectRepository\study\DDDNB\DDDNB\bin\Debug\net6.0\FluentValidation.dll

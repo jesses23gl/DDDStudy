@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "iaEXa06p331Y4Fssy+la3Z7z3tsczykrBVDRCgrbFtzc2n+Iw+UiswBNN7zHYw7nxnlixOHvIFYW4WU1f5E8jA==",
+  "dgSpecHash": "jWCMsZ9JG/kjFw7KAnapzPztc6CmsK2nqhVazdnif8vPRKXAEVnVcUeZcd4OnwoF3M8/Jpi6P3hOJc/XTq16wg==",
   "success": true,
   "projectFilePath": "E:\\ProjectRepository\\study\\DDDNB\\Infrastruct.Data\\Infrastruct.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

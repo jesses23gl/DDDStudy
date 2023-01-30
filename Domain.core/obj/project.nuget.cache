@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PgTn11+byl9ohIT+BXYml2Sa3wZvj/eZGAIiNsAFhCUkM2AfUwj4aDmWYfI2tBKi8JM5Ekg3a9lRD1fbogthMQ==",
+  "dgSpecHash": "yq1AzfY9gbymykUGhYWBEITmIYTTfWk3xhrs3ETrm9B1ZJcpHM+E9ecZKL7QQcs+1BUu0+8QjnKD686fF4Degw==",
   "success": true,
   "projectFilePath": "E:\\ProjectRepository\\study\\DDDNB\\Domain.core\\Domain.core.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.13\\microsoft.entityframeworkcore.6.0.13.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.13\\microsoft.entityframeworkcore.abstractions.6.0.13.nupkg.sha512",

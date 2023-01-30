@@ -14,6 +14,7 @@ namespace Infrastruct.Data
         public virtual void Add(TEntity obj)
         {
             _db.Set<TEntity>().Add(obj);
+            SaveChanges();
         }
 
         public virtual TEntity Get(Guid id)

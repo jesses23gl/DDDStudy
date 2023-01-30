@@ -9,20 +9,20 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["DDDNB/DDDNB.csproj", "DDDNB/"]
+COPY ["DDDNB/UI.Web.csproj", "DDDNB/"]
 COPY ["Application/Application.csproj", "Application/"]
 COPY ["Domain/Domain.csproj", "Domain/"]
 COPY ["Domain.core/Domain.core.csproj", "Domain.core/"]
 COPY ["Infrastruct.Data/Infrastruct.Data.csproj", "Infrastruct.Data/"]
-RUN dotnet restore "DDDNB/DDDNB.csproj"
+RUN dotnet restore "DDDNB/UI.Web.csproj"
 COPY . .
 WORKDIR "/src/DDDNB"
-RUN dotnet build "DDDNB.csproj" -c Release -o /app/build
+RUN dotnet build "UI.Web.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "DDDNB.csproj" -c Release -o /app/publish
+RUN dotnet publish "UI.Web.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "DDDNB.dll"]
+ENTRYPOINT ["dotnet", "UI.Web.dll"]

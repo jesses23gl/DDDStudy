@@ -12,8 +12,13 @@ namespace Application.AutoMap
     {
         public ViewModelToDomainMappingProfile()
         {
+            //领域模型和视图模型结构不匹配，可进行手动配置
             //view -> domain
-            CreateMap<StudentViewModel, Student>();
+            CreateMap<StudentViewModel, Student>()
+              .ForPath(d => d.Address.Province, o => o.MapFrom(s => s.Province))
+              .ForPath(d => d.Address.City, o => o.MapFrom(s => s.City))
+              .ForPath(d => d.Address.County, o => o.MapFrom(s => s.County))
+              .ForPath(d => d.Address.Street, o => o.MapFrom(s => s.Street)); 
         }
     }
 }

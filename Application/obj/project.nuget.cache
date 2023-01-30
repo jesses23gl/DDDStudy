@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "IAK4iStyYa8hi9mOLpYiXjZ1Sn9bdH4a2V8Rg6/26i8I/kLU9FPWTyMR54KknTxdYdqonV9am/ybJA35KaEnDw==",
+  "dgSpecHash": "lGtxWuDj5Xjs3NB2Vn2LuNtaSDJifUpSWRvhKp3muuZaPD1YQaP2FP65eEwdpjhVc7GpumHTyK6tOdYMtEqf+w==",
   "success": true,
   "projectFilePath": "E:\\ProjectRepository\\study\\DDDNB\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.13\\microsoft.entityframeworkcore.6.0.13.nupkg.sha512",

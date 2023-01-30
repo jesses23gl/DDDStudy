@@ -9,7 +9,9 @@ namespace DDDNB.Extensions
         {
             if (services == null)
                 throw new ArgumentNullException(nameof(services));
-            services.AddAutoMapper(c => AutoMapperConfig.RegisterMappings());
+            services.AddAutoMapper(typeof(AutoMapperConfig));
+
+            AutoMapperConfig.RegisterMappings();
         }
     }
 }
