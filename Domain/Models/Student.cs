@@ -1,17 +1,18 @@
 ﻿using Domain.core.Models;
-using Domain.Models;
 
 namespace Domain
 {
     public class Student : BaseEntity
     {
         protected Student() { }
-        public Student(Guid id, string name, string email, DateTime birthDate)
+        public Student(Guid id, string name, string email, string phone,DateTime birthDate,Address address)
         {
             Id = id;
             Name = name;
             Email = email;
+            Phone = phone;
             BirthDate = birthDate;
+            Address = address;
         }
 
         /// <summary>

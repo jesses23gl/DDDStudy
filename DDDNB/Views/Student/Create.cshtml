@@ -1,11 +1,10 @@
-﻿@page
-@using Application
+﻿@using Application
 @model StudentViewModel
 @{
     ViewData["Title"] = "Register new Student";
 }
 <h2>@ViewData["Title"]</h2>
-<form asp-action="Create">
+<form asp-controller="Student" asp-action="Create">
     <div class="form-horizontal">
         <hr />
         @* 将经典验证摘要替换为自定义视图组件作为标记助手 *@

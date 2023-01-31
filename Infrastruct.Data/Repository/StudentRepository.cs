@@ -17,7 +17,8 @@ namespace Infrastruct.Data.Repository
 
         public Student GetByEmail(string email)
         {
-            throw new NotImplementedException();
+            var model = _db.Set<Student>().FirstOrDefault(x => x.Email.Equals(email));
+            return model;
         }
     }
 }

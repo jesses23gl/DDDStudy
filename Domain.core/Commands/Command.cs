@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using FluentValidation.Results;
+using MediatR;
 
 namespace Domain.core.Commands
 {
-    public abstract class Command
+    public abstract class Command : IRequest<bool>  //IRequest 请求/响应模式，对比发布/订阅模式
     {
         //时间戳
         public DateTime Timestamp { get; private set; }

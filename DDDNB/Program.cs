@@ -3,7 +3,9 @@ using AutoMapper;
 using DDDNB.Extensions;
 using DDDNB.IoC;
 using Infrastruct.Data.Data;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,10 +14,10 @@ builder.Services.AddRazorPages();
 
 builder.Services.AddDbContext<StudyContext>(options =>
         options.UseSqlServer(builder.Configuration["SqlConnection:ConnectionString"]!));
-
+builder.Services.AddMemoryCache();
 builder.Services.RegisterServices();
 builder.Services.AddAutoMapperSetup();
-
+builder.Services.AddMediatR(typeof(Program).GetTypeInfo().Assembly);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

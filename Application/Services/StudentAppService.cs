@@ -2,6 +2,8 @@
 using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using Domain;
+using Domain.Commands;
+using Domain.core.Bus;
 using Domain.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -17,10 +19,13 @@ namespace Application.Services
 
         private readonly IMapper _mapper;//用于进行DTO
 
-        public StudentAppService(IStudentRepository StudentRepository,IMapper mapper)
+        private readonly IMediatorHandler Bus;
+
+        public StudentAppService(IStudentRepository StudentRepository,IMapper mapper, IMediatorHandler bus)
         {
             _StudentRepository = StudentRepository;
             _mapper = mapper;   
+            Bus= bus;
         }
 
         public IEnumerable<StudentViewModel> GetAll()
@@ -39,9 +44,12 @@ namespace Application.Services
         public void Register(StudentViewModel StudentViewModel)
         {
 
-            var newModel = _mapper.Map<Student>(StudentViewModel);
+            var registerCommand = _mapper.Map<RegisterStudentCommand>(StudentViewModel);
 
-            _StudentRepository.Add(newModel);
+            Bus.SendCommand(registerCommand);
+            //var newModel = _mapper.Map<Student>(StudentViewModel);
+
+            //_StudentRepository.Add(newModel);
             //var registerCommand = _mapper.Map<RegisterNewStudentCommand>(StudentViewModel);
         }
 

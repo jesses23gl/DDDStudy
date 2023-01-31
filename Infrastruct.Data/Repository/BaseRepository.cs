@@ -14,7 +14,6 @@ namespace Infrastruct.Data
         public virtual void Add(TEntity obj)
         {
             _db.Set<TEntity>().Add(obj);
-            SaveChanges();
         }
 
         public virtual TEntity Get(Guid id)
@@ -37,10 +36,10 @@ namespace Infrastruct.Data
             _db.Set<TEntity>().Remove(_db.Set<TEntity>().Find(id));
         }
 
-        public int SaveChanges()
-        {
-            return _db.SaveChanges();
-        }
+        //public int SaveChanges()
+        //{
+        //    return _db.SaveChanges();
+        //}
 
         public void Dispose()
         {
