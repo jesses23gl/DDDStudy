@@ -1,0 +1,14 @@
+E:\ProjectRepository\study\DDDNB\Domain.core\bin\Release\net6.0\Domain.core.deps.json
+E:\ProjectRepository\study\DDDNB\Domain.core\bin\Release\net6.0\Domain.core.dll
+E:\ProjectRepository\study\DDDNB\Domain.core\bin\Release\net6.0\Domain.core.pdb
+E:\ProjectRepository\study\DDDNB\Domain.core\obj\Release\net6.0\Domain.core.csproj.AssemblyReference.cache
+E:\ProjectRepository\study\DDDNB\Domain.core\obj\Release\net6.0\Domain.core.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProjectRepository\study\DDDNB\Domain.core\obj\Release\net6.0\Domain.core.AssemblyInfoInputs.cache
+E:\ProjectRepository\study\DDDNB\Domain.core\obj\Release\net6.0\Domain.core.AssemblyInfo.cs
+E:\ProjectRepository\study\DDDNB\Domain.core\obj\Release\net6.0\Domain.core.csproj.CoreCompileInputs.cache
+E:\ProjectRepository\study\DDDNB\Domain.core\obj\Release\net6.0\Domain.core.dll
+E:\ProjectRepository\study\DDDNB\Domain.core\obj\Release\net6.0\refint\Domain.core.dll
+E:\ProjectRepository\study\DDDNB\Domain.core\obj\Release\net6.0\Domain.core.pdb
+E:\ProjectRepository\study\DDDNB\Domain.core\obj\Release\net6.0\ref\Domain.core.dll
+E:\ProjectRepository\study\DDDNB\Domain.core\bin\Release\net6.0\Domain.core.runtimeconfig.json
+E:\ProjectRepository\study\DDDNB\Domain.core\obj\Release\net6.0\Domain.core.genruntimeconfig.cache
